@@ -1,0 +1,33 @@
+{
+    "name": "koaapi",
+    "version": "1.0.0",
+    "description": "introduction to koa framework",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest",
+        "start": "nodemon --inspect ."
+    },
+    "jest": {
+        "testEnvironment": "node"
+    },
+    "author": "Qudus Yekeen",
+    "repository": "git@github.com:QUDUSKUNLE/Koa-API.git",
+    "license": "MIT",
+    "dependencies": {
+        "celebrate": "^9.1.0",
+        "dotenv": "^7.0.0",
+        "joi": "^14.3.1",
+        "joi-objectid": "^2.0.0",
+        "koa": "^2.7.0",
+        "koa-body": "^4.1.0",
+        "koa-body-parser": "^1.1.2",
+        "koa-joi-router": "^5.3.0",
+        "koa-router": "^7.4.0",
+        "nodemon": "^1.18.10",
+        "pg": "^7.9.0"
+    },
+    "devDependencies": {
+        "jest": "^24.7.1",
+        "supertest": "^4.0.2"
+    }
+}
